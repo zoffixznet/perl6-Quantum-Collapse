@@ -41,10 +41,10 @@ Collapses allomorphics into their **numerical** parts
 (e.g. `IntStr` becomes `Int`). Prefix operator with
 same precedence as prefix `|`
 
-# `n<-`
+# `s<-`
 
 ```perl6
-    say  2  ∈ n<- <2 a>; # True
+    say  '2'  ∈ s<- <2 a>; # True
 ```
 
 Collapses allomorphics into their **stringy** parts
